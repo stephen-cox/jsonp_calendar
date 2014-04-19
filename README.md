@@ -16,3 +16,7 @@ for a particular day. Add the JS and CSS files to your webpage, change the url
 in the JS file to the location of the PHP script and template string to the
 reflect the names of the variables that will be returned in the JSON. The CSS
 file controls how the calendar will look on the webpage.
+
+Once the CSS and JS files have been added to your webpage, add two divs to the
+page with ids calendar and events, and call the calendar_init JavaScript
+function. See the jsonp_calendar.html file for an example.
